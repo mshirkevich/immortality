@@ -31,8 +31,13 @@ $base-pad:3rem;
   margin-left: $colmar;
 }
 
-$color:#4c4c4c; //
-$color-orange: #e8411a;
+@mixin transition($duration) {
+  transition: all $duration ease-in-out;
+}
+
+$color:#323232; //
+$color-orange: #CB8738;
+$orange-light: #FFAE52;
 $color-blue: #577fb1;
 $attantion:#ffcd00;;
 $warning:#ff181f;

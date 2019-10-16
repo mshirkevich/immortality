@@ -1,2 +1,71 @@
 header.header
+    .header__wrap.container
+        a(href="#").header__logo
+            img(src="img/logo.png", alt="")
+        .header__search
+            form.h-search
+                .h-search__wrap
+                    .h-search__input
+                        input(type="text", placeholder="Поиск...")
+        .header__menu.h-menu
+            .h-menu__head
+                .h-menu__open
+                    span
+                span Меню
+            .h-menu__dropdown
+                ul.h-menu__list
+                    li.h-menu__item.current
+                        a(href="#").h-menu__link Главная
+                    li.h-menu__item
+                        a(href="#").h-menu__link Личный кабинет
+                    li.h-menu__item
+                        a(href="#").h-menu__link Цифровое наследие
+                    li.h-menu__item
+                        a(href="#").h-menu__link География проекта
+                    li.h-menu__item
+                        a(href="#").h-menu__link Цифровая регистрация смерти
+                    li.h-menu__item
+                        a(href="#").h-menu__link Услуги
+                    li.h-menu__item
+                        a(href="#").h-menu__link Контакты и вопросы
+        .header__lang.lang
+            .current-lang RU
+            .lang-list-block
+                ul.lang-list
+                    li.lang-list__item
+                        a(href="#").lang-list__link RUS
+                    li.lang-list__item
+                        a(href="#").lang-list__link BEL
+                    li.lang-list__item.current
+                        a(href="#").lang-list__link RUS
+                    li.lang-list__item
+                        a(href="#").lang-list__link ENG
+                    li.lang-list__item
+                        a(href="#").lang-list__link RUS
+                    li.lang-list__item
+                        a(href="#").lang-list__link BEL
+                    li.lang-list__item
+                        a(href="#").lang-list__link RUS
+                    li.lang-list__item
+                        a(href="#").lang-list__link ENG
+                    li.lang-list__item
+                        a(href="#").lang-list__link BEL
+                    li.lang-list__item
+                        a(href="#").lang-list__link ENG
+                    li.lang-list__item
+                        a(href="#").lang-list__link RUS
+                    li.lang-list__item
+                        a(href="#").lang-list__link BEL
+                    li.lang-list__item
+                        a(href="#").lang-list__link BEL
+                    li.lang-list__item
+                        a(href="#").lang-list__link ENG
+                    li.lang-list__item
+                        a(href="#").lang-list__link RUS
+                    li.lang-list__item
+                        a(href="#").lang-list__link ENG
+        .header__enter
+            a(href="#").entr-btn.bb-btn
+                include svg/login.svg
+                span Войти
                     
